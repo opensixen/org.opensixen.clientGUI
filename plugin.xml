@@ -13,5 +13,16 @@
          </run>
       </application>
    </extension>
-
+	<extension
+         id="Opensixen"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.opensixen.clientGUI.OpensixenGUI"
+            name="Opensixen Client Lite">
+         <property
+               name="appName"
+               value="Opensixen Client Lite">
+         </property>
+      </product>
+   </extension>
 </plugin>
